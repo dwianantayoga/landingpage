@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+
+<div class="sidebar-right" id="sidebar">
+    <button class="btn btn-primary btn-lg btn-circle" onclick="sidebarClose()"> <i class="fa fa-times"></i> </button>
+    <a href="#" class="active">HOME</a>
+    <a href="index1.html" target="_blank">SIGN UP</a>
+    <a href="#learn" >LEARN</a>
+    <a href="#certification">CERTIFICANTIONS</a>
+</div>
+
+<div class="bg">
+
+                <!--NAVBAR-->
+
+    <nav class="navbar justify-content-between">
+        <div class="logo">
+            <a href="#">
+                <img src="assets/logo.jpg" alt="" srcset="" height="130px" style=" margin:auto;">
+            </a>
+        </div>
+        <div class="menu">
+            <a href="#" class="active">HOME</a>
+            <a href="index1.html" target="_blank">SIGN UP</a>
+            <a href="#learn">LEARN</a>
+            <a href="#certification">CERTIFICANTIONS</a>
+            <button class="btn btn-primary btn-lg icon" onclick="sidebarOpen()"><i class="fa fa-bars"></i></button>
+        </div>
+    </nav>
+                 <!-- AKHIR NAVBAR-->
+    <br>
+
+    <div class="container-fluid">
+
+        <div class="d-sm-flex justify-content-around content">
+
+            <div class="content-left">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="text-blue"><b>Microsoft</b></h1>
+                <h1 class="text-blue">Certified Education</h1>
+                <div class="description">
+                    <p>The Microsoft Certified Educator (MCE) certification validates that educators
+                        have the global educator technology literacy competencies needed to provide 
+                        a rich, custom learning experience for students. MCE certification is ideal 
+                        for educators-in-training, faculty of teacher training colleges, and in-service educators.
+                        Note The Microsoft Certified Educator exam assesses whether educators understand how to apply 
+                        technology tools in the six different content domains, not whether they are proficient in using
+                        specific technology tools.</p>
+                </div>
+                <div class="note"> 
+                    Skills measured <br>
+                    1.Facilitate student collaboration <br>
+                    2.Facilitate skilled communication <br>
+                    3.Facilitate self-regulation <br>
+                   
+               </div>
+                <br>
+                <a href="#" class="btn btn-primary btn-lg">GET STARTED</a>
+            </div>
+
+            <div class="image1">
+                <img src="assets/logo-tengah.png" alt="" srcset="" height="450px">
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+                             <!--konten kedua learn-->
+    <div class=""> 
+        <center> <h2 id="learn">Popular Learning Paths and Modules</h2></center><br>
+        <div class="container overflow-hidden">
+            <div class="row gy-5">
+              <div class="col-6">
+                <div class="p-3 border bg-light">LEARNING PATH <br> <a href="#"
+                    >Azure Fundamentals part 1: Describe core Azure concepts</a>
+                </div><br>
+              </div>
+              <div class="col-6">
+                <div class="p-3 border bg-light">LEARNING PATH <br><a href="#">
+                    Azure Fundamentals part 3: Describe core solutions and management </a></div><br>
+              </div> 
+              <div class="col-6">
+                <div class="p-3 border bg-light">LEARNING PATH <br><a href="#">
+                    Azure Fundamentals part 2: Describe core Azure services</a></div><br>
+              </div>
+              <div class="col-6">
+                <div class="p-3 border bg-light">LEARNING PATH <br><a href="#">
+                    Azure Fundamentals part 4: Describe core solutions and management </a></div>
+              </div>
+              <div class="col-6">
+                <div class="p-3 border bg-light">MODULE <br><a href="#">
+                    Protect against security threats on Azure</a></div>
+              </div>
+              <div class="col-6">
+                <div class="p-3 border bg-light">MODULE <br><a href="#">
+                    Build a cloud governance strategy on Azure </a></div>
+              </div>
+            </div>
+          </div>
+                            <!--akhir konten kedua learn-->
+       
+   </div>
+   <br>
+   <br>
+   <br>
+   <center> <h2 id="certification">Certifications and Exam</h2></center><br>
+   <div class="container">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col">
+        <div class="p-3 border bg-light">CERTIFICANTIONS <br><a href="#">
+            MTA: Database Fundamentals <br>
+            </a> Exam <br>
+            98-364 </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">EXAM <br> <a href="#">
+            Exam 98-361: <br> Software Development Fundamentals <br></a></div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">CERTIFICANTIONS <br><a href="#">
+            MTA: Database Fundamentals <br>
+            </a> Exam <br>
+            98-364 </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">EXAM <br> <a href="#">
+            Exam 98-361: <br> Software Development Fundamentals <br></a></div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">CERTIFICANTIONS <br><a href="#">
+            MTA: Database Fundamentals <br>
+            </a> Exam <br>
+            98-364 </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">EXAM <br> <a href="#">
+            Exam 98-361: <br> Software Development Fundamentals <br></a></div>
+      </div>
+      
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+    </div>
+  </div>
+
+</div>
+
+</body>
+<script>
+    function sidebarOpen(){
+        document.getElementById("sidebar").style.transform = "translateX(0px)";
+    }
+    function sidebarClose(){
+        document.getElementById("sidebar").style.transform = "translateX(300px)";
+    }
+</script>
+</html>
